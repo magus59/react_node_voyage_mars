@@ -21,15 +21,14 @@ function ReservationPage() {
 
   return (
     <>
-      <h1 className="text-center fw-bold p-3 text-primary">Voyage Mars</h1>
       <h2 className="text-center text-secondary">Reservation</h2>
       <div className="d-flex flex-wrap gap-3 justify-content-center">
         {reservations.map((reservation) => {
           return (
             <ReservationCard
               reservation={reservation}
-              key={"Reservation_" + reservation.CL_ID}
-            ></ReservationCard>
+              key={"Reservation_" + reservation.RE_ID}
+            />
           );
         })}
       </div>

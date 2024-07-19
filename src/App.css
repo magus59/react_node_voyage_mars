@@ -1,5 +1,20 @@
-table, tbody tr, thead th, tr, tbody td{
+table,
+tbody tr,
+thead th,
+tr,
+tbody td {
   border: 2px solid rgb(5, 129, 24);
   border-collapse: collapse;
   padding: 10px;
+}
+
+#btn_reservation {
+  border-radius: 5px;
+  background: rgb(5, 41, 109);
+  color: white;
+
+}
+
+#btn_reservation:hover {
+  background: rgb(3, 52, 145);
 }

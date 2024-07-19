@@ -24,12 +24,12 @@ function ReservationDetailsPage() {
       <h2 className="text-center text-secondary">
         Détails de la Réservation {id} :
       </h2>
-      <div className="d-flex flex-column align-items-center bg-dark ">
+      <div className="d-flex flex-column align-items-center bg-dark m-5">
+        <h3 className="text-center text-white">
+          Voyage du {reservation.RE_DateDebut} au {reservation.RE_DateFin}
+        </h3>
         <h2 className="text-center text-white">
           Réservation : {reservation.RE_DateReservation}
-        </h2>
-        <h2 className="text-center text-white">
-          Date de début : {reservation.RE_DateDebut}
         </h2>
         <h2 className="text-center text-warning">Client :</h2>
         {reservation.client ? (
